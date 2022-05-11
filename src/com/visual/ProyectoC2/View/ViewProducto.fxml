@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane prefHeight="450.0" prefWidth="500.0" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.visual.ProyectoC2.View.ViewProductoController">
+   <children>
+      <ImageView fx:id="Fondo" fitHeight="450.0" fitWidth="500.0" pickOnBounds="true" preserveRatio="true" />
+      <ImageView fx:id="Logo" fitHeight="104.0" fitWidth="125.0" pickOnBounds="true" preserveRatio="true" />
+      <ImageView fx:id="User" fitHeight="105.0" fitWidth="105.0" layoutX="398.0" pickOnBounds="true" preserveRatio="true" />
+      <Button fx:id="Nuevo" layoutX="76.0" layoutY="339.0" mnemonicParsing="false" onMouseClicked="#botonNuevo" prefHeight="25.0" prefWidth="52.0" />
+      <Button fx:id="Baja" layoutX="376.0" layoutY="339.0" mnemonicParsing="false" onMouseClicked="#botonBaja" prefHeight="25.0" prefWidth="52.0" />
+      <Button fx:id="Reporte" layoutX="176.0" layoutY="339.0" mnemonicParsing="false" onMouseClicked="#botonReporte" prefHeight="25.0" prefWidth="61.0" />
+      <TableView fx:id="Tabla" layoutX="51.0" layoutY="115.0" prefHeight="200.0" prefWidth="399.0">
+        <columns>
+          <TableColumn fx:id="Nombre" prefWidth="160.0" />
+          <TableColumn fx:id="Precio" prefWidth="70.0" />
+            <TableColumn fx:id="Cantidad" prefWidth="70.0" />
+            <TableColumn fx:id="Codigo" prefWidth="100.0" />
+        </columns>
+      </TableView>
+      <Button fx:id="Salir" layoutX="188.0" layoutY="400.0" mnemonicParsing="false" onMouseClicked="#botonSalir" prefHeight="25.0" prefWidth="125.0" />
+      <Button fx:id="Actualizar" layoutX="276.0" layoutY="339.0" mnemonicParsing="false" onMouseClicked="#botonActualizar" prefHeight="25.0" prefWidth="71.0" />
+      <Button fx:id="Compras" layoutX="66.0" layoutY="400.0" mnemonicParsing="false" onMouseClicked="#botonCompras" prefHeight="25.0" prefWidth="71.0" />
+      <ImageView fx:id="Carrito" fitHeight="55.0" fitWidth="70.0" layoutX="363.0" layoutY="373.0" pickOnBounds="true" preserveRatio="true" />
+      <Button layoutX="363.0" layoutY="373.0" mnemonicParsing="false" onMouseClicked="#botonCarrito" opacity="0.0" prefHeight="55.0" prefWidth="71.0" />
+   </children>
+</AnchorPane>
