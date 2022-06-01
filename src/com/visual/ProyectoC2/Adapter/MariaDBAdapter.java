@@ -18,9 +18,9 @@ public class MariaDBAdapter {
 	}
 	
 	public void Connection() {
-		String connectionString = "jdbc:mariadb://localhost:3306/tiendita?zeroDateTimeBehavior=convertToNull&serverTimezone=UTC";
-		String user = "root";
-		String password = "alexito2012";
+		String connectionString = "jdbc:mysql://localhost:3306/tiendita?zeroDateTimeBehavior=convertToNull&serverTimezone=UTC";
+		String user = "fran";
+		String password = "azulyoro";
 		
 		try {
 			connection = DriverManager.getConnection(connectionString, user, password);
