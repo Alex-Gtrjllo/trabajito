@@ -2,48 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="7bed4fa2-a4ba-446f-934e-4615e8a6c4a5" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/discord.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/JasperReports.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/JavaFx11_0_2.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/MariaDB.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/mysql_connector_java_8_0_21.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Informes/informeVenta.pdf" beforeDir="false" afterPath="$PROJECT_DIR$/Informes/informeVenta.pdf" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProyectoC2.iml" beforeDir="false" afterPath="$PROJECT_DIR$/ProyectoC2.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/com/visual/ProyectoC2/Adapter/MariaDBAdapter.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/com/visual/ProyectoC2/Adapter/MariaDBAdapter.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/com/visual/ProyectoC2/DAO/CategoryDAO.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/com/visual/ProyectoC2/DAO/CategoryDAO.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/com/visual/ProyectoC2/DAO/ProductDAO.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/com/visual/ProyectoC2/DAO/ProductDAO.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/com/visual/ProyectoC2/DAO/SellDAO.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/com/visual/ProyectoC2/DAO/SellDAO.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/com/visual/ProyectoC2/DAO/ShopDAO.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/com/visual/ProyectoC2/DAO/ShopDAO.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/com/visual/ProyectoC2/DAO/SuppliersDAO.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/com/visual/ProyectoC2/DAO/SuppliersDAO.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/com/visual/ProyectoC2/DAO/UserDAO.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/com/visual/ProyectoC2/DAO/UserDAO.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/com/visual/ProyectoC2/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/com/visual/ProyectoC2/Main.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/com/visual/ProyectoC2/View/Root.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/bin/com/visual/ProyectoC2/View/Root.fxml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/com/visual/ProyectoC2/View/RootController.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/com/visual/ProyectoC2/View/RootController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/com/visual/ProyectoC2/View/ViewCajeroController.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/com/visual/ProyectoC2/View/ViewCajeroController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/com/visual/ProyectoC2/View/ViewCompras.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/bin/com/visual/ProyectoC2/View/ViewCompras.fxml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/com/visual/ProyectoC2/View/ViewEdit.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/bin/com/visual/ProyectoC2/View/ViewEdit.fxml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/com/visual/ProyectoC2/View/ViewEditCompra.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/bin/com/visual/ProyectoC2/View/ViewEditCompra.fxml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/com/visual/ProyectoC2/View/ViewEditCompraController.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/com/visual/ProyectoC2/View/ViewEditCompraController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/com/visual/ProyectoC2/View/ViewEditController.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/com/visual/ProyectoC2/View/ViewEditController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/com/visual/ProyectoC2/View/ViewMenu.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/bin/com/visual/ProyectoC2/View/ViewMenu.fxml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/com/visual/ProyectoC2/View/ViewMenuController.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/com/visual/ProyectoC2/View/ViewMenuController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/com/visual/ProyectoC2/View/ViewProducto.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/bin/com/visual/ProyectoC2/View/ViewProducto.fxml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/com/visual/ProyectoC2/View/ViewRegistro.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/bin/com/visual/ProyectoC2/View/ViewRegistro.fxml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/com/visual/ProyectoC2/View/ViewVentas.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/bin/com/visual/ProyectoC2/View/ViewVentas.fxml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/com/visual/ProyectoC2/View/ViewVentasController.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/com/visual/ProyectoC2/View/ViewVentasController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/com/visual/ProyectoC2/entitys/Category.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/com/visual/ProyectoC2/entitys/Category.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/com/visual/ProyectoC2/entitys/Product.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/com/visual/ProyectoC2/entitys/Product.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/com/visual/ProyectoC2/entitys/Sell.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/com/visual/ProyectoC2/entitys/Sell.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/com/visual/ProyectoC2/entitys/Shop.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/com/visual/ProyectoC2/entitys/Shop.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/com/visual/ProyectoC2/entitys/Suppliers.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/com/visual/ProyectoC2/entitys/Suppliers.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/com/visual/ProyectoC2/entitys/User.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/com/visual/ProyectoC2/entitys/User.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/visual/ProyectoC2/Adapter/MariaDBAdapter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/visual/ProyectoC2/Adapter/MariaDBAdapter.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/visual/ProyectoC2/View/Root.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/visual/ProyectoC2/View/Root.fxml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/visual/ProyectoC2/View/RootController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/visual/ProyectoC2/View/RootController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/visual/ProyectoC2/View/ViewCompras.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/visual/ProyectoC2/View/ViewCompras.fxml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/visual/ProyectoC2/View/ViewEdit.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/visual/ProyectoC2/View/ViewEdit.fxml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -102,7 +62,8 @@
       <option name="presentableId" value="Default" />
       <updated>1654056455414</updated>
       <workItem from="1654056465199" duration="366000" />
-      <workItem from="1654056909595" duration="5808000" />
+      <workItem from="1654056909595" duration="6480000" />
+      <workItem from="1654098630047" duration="718000" />
     </task>
     <servers />
   </component>
