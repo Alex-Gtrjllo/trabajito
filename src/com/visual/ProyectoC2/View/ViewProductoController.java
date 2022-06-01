@@ -99,11 +99,14 @@ public class ViewProductoController implements Initializable {
 
     @FXML
     void botonActualizar(MouseEvent event) {
-    	actualizar = Tabla.getSelectionModel().getSelectedItem();
-    	System.out.println(actualizar);  
-    	
-    	Main.newStage("ViewEdit", "Editar");
-    	Main.closeStage(event);
+        actualizar = Tabla.getSelectionModel().getSelectedItem();
+        System.out.println(actualizar);
+        if (actualizar != null) {
+            Main.newStage("ViewEdit", "Editar");
+            Main.closeStage(event);
+        } else {
+            System.out.println("no se seleccionó un producto");
+        }
     }
     
     @FXML

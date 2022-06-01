@@ -32,7 +32,7 @@ public class RootController {
 
     @FXML
     private URL location;
-    
+
     @FXML
     private ImageView fondo;
 
@@ -40,7 +40,7 @@ public class RootController {
     private ImageView icon;
 
     @FXML
-    private PasswordField contrase�a;
+    private PasswordField contraseña;
 
     @FXML
     private TextField usuario;
@@ -50,44 +50,50 @@ public class RootController {
 
     @FXML
     private Button botonSalir;
-    
+
     private String pUsuario;
-    
+
     private String contra;
-    
-    private UserDAO dao = new UserDAO(); 
-    
+
+    private UserDAO dao = new UserDAO();
+
     public static User id;
-    
+
     @FXML
     void BotonLogin(MouseEvent event) {
     	pUsuario = usuario.getText();
-    	contra = contrase�a.getText();
-    	User user = dao.getUser(pUsuario);
-    	id = user;
-    	if (user != null) {
-    		if (user.getPassword().equals(contra)) {
-    			System.out.println("Exito");
-    			try {
-					Main.setFXML("ViewMenu", "Menu");
-				} catch (IOException e) {
-					// TODO Auto-generated catch block
-					e.printStackTrace();
-				}
-    		}else
-    			System.out.println("Contrase�a incorrecta");
-    	}else
-    		System.out.println("Incorrecto");
-    	
+    	contra = contraseña.getText();
+        User user;
+        if (!pUsuario.equals("") && !contra.equals("")) {
+            user = dao.getUser(pUsuario);
+            id = user;
+            if (user.getLogin() == null){
+                System.out.println("El usuario no existe favor de ingresar un usuario válido");
+            }else {
+                if (user.getPassword().equals(contra)) {
+                    System.out.println("Logeado con Exito");
+                    try {
+                        Main.setFXML("ViewMenu", "Menu");
+                    } catch (IOException e) {
+                        // TODO Auto-generated catch block
+                        e.printStackTrace();
+                    }
+                }else
+                    System.out.println("Contraseña incorrecta");
+            }
+        } else {
+            System.out.println("por favor ingrese los datos solicitados");
+        }
+
     }
 
     @FXML
     void botonSalir(MouseEvent event) {
     	System.exit(0);
     }
-    
-    
-    
+
+
+
     @FXML
     void initialize() {
         fondo.setImage(new Image("Resources/fondo.jpg"));
