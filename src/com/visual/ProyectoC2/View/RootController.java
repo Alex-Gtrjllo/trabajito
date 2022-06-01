@@ -96,8 +96,7 @@ public class RootController {
 
     @FXML
     void initialize() {
-        fondo.setImage(new Image("Resources/fondo.jpg"));
-        icon.setImage(new Image("Resources/icon.png"));
+
 
     }
 }

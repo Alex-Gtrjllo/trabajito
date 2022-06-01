@@ -1,1 +1,6 @@
-
+/.settings/
+/.project
+/.classpath
+/build.fxbuild
+/ProyectoC2.iml/
+/.idea/

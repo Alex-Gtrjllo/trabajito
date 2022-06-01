@@ -7,9 +7,12 @@
 <?import javafx.scene.layout.AnchorPane?>
 <?import javafx.scene.text.Font?>
 
-<AnchorPane prefHeight="400.0" prefWidth="400.0" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.visual.ProyectoC2.View.ViewMenuController">
+<AnchorPane prefHeight="400.0" prefWidth="400.0" xmlns="http://javafx.com/javafx/18" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.visual.ProyectoC2.View.ViewMenuController">
    <children>
-      <ImageView fx:id="imageFondo" fitHeight="400.0" fitWidth="405.0" pickOnBounds="true" preserveRatio="true" />
+      <ImageView fx:id="imageFondo" fitHeight="400.0" fitWidth="400.0" layoutX="3.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../../../Resources/fondo2.0.jpg" />
+         </image></ImageView>
       <ImageView fx:id="imageLogo" fitHeight="104.0" fitWidth="125.0" layoutX="280.0" pickOnBounds="true" preserveRatio="true" />
       <ImageView fitHeight="47.0" fitWidth="84.0" layoutX="85.0" layoutY="223.0" pickOnBounds="true" preserveRatio="true">
          <image>
@@ -31,10 +34,10 @@
             <Font name="System Bold Italic" size="18.0" />
          </font>
       </Label>
-      <Button fx:id="product" layoutX="71.0" layoutY="223.0" mnemonicParsing="false" onMouseClicked="#botonProduct" opacity="0.0" prefHeight="47.0" prefWidth="81.0" />
-      <Button fx:id="ventas" layoutX="253.0" layoutY="223.0" mnemonicParsing="false" onMouseClicked="#botonVentas" opacity="0.0" prefHeight="47.0" prefWidth="81.0" />
-      <Button fx:id="category" layoutX="71.0" layoutY="297.0" mnemonicParsing="false" onMouseClicked="#botonCategory" prefHeight="47.0" prefWidth="81.0" />
-      <Button fx:id="suppliers" layoutX="253.0" layoutY="297.0" mnemonicParsing="false" onMouseClicked="#botonSuppliers" prefHeight="47.0" prefWidth="81.0" />
-      <Button fx:id="salir" layoutX="171.0" layoutY="361.0" mnemonicParsing="false" onMouseClicked="#botonSalir" prefHeight="25.0" prefWidth="63.0" />
+      <Button fx:id="product" layoutX="71.0" layoutY="201.0" mnemonicParsing="false" onMouseClicked="#botonProduct" opacity="0.0" prefHeight="47.0" prefWidth="81.0" />
+      <Button fx:id="ventas" layoutX="260.0" layoutY="223.0" mnemonicParsing="false" onMouseClicked="#botonVentas" opacity="0.0" prefHeight="47.0" prefWidth="81.0" />
+      <Button fx:id="category" layoutX="59.0" layoutY="303.0" mnemonicParsing="false" onMouseClicked="#botonCategory" prefHeight="36.0" prefWidth="105.0" text="Categoria" />
+      <Button fx:id="suppliers" layoutX="241.0" layoutY="303.0" mnemonicParsing="false" onMouseClicked="#botonSuppliers" prefHeight="36.0" prefWidth="105.0" text="Proveedores" />
+      <Button fx:id="salir" layoutX="171.0" layoutY="361.0" mnemonicParsing="false" onMouseClicked="#botonSalir" prefHeight="25.0" prefWidth="63.0" text="Salir" />
    </children>
 </AnchorPane>

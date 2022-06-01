@@ -4,13 +4,17 @@
 <?import javafx.scene.control.Label?>
 <?import javafx.scene.control.PasswordField?>
 <?import javafx.scene.control.TextField?>
+<?import javafx.scene.image.Image?>
 <?import javafx.scene.image.ImageView?>
 <?import javafx.scene.layout.AnchorPane?>
 <?import javafx.scene.text.Font?>
 
-<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="400.0" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.visual.ProyectoC2.View.RootController">
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="400.0" xmlns="http://javafx.com/javafx/18" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.visual.ProyectoC2.View.RootController">
    <children>
-      <ImageView fx:id="fondo" fitHeight="411.0" fitWidth="400.0" pickOnBounds="true" preserveRatio="true" />
+      <ImageView fx:id="fondo" fitHeight="411.0" fitWidth="400.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../../../../bin/Resources/fondoMenu.jpg" />
+         </image></ImageView>
       <AnchorPane layoutX="50.0" layoutY="50.0" prefHeight="300.0" prefWidth="300.0" style="-fx-background-color: F9F7F7; -fx-opacity: 60%;">
          <children>
             <Label layoutX="85.0" layoutY="135.0" text="Bienvenido">
@@ -18,12 +22,15 @@
                   <Font name="Berlin Sans FB" size="28.0" />
                </font>
             </Label>
-            <ImageView fx:id="icon" fitHeight="133.0" fitWidth="160.0" layoutX="84.0" layoutY="2.0" pickOnBounds="true" preserveRatio="true" />
+            <ImageView fx:id="icon" fitHeight="133.0" fitWidth="160.0" layoutX="84.0" layoutY="2.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../../../../../bin/Resources/icon.png" />
+               </image></ImageView>
             <PasswordField fx:id="contraseña" layoutX="50.0" layoutY="200.0" prefWidth="200.0" promptText="Contraseña" />
             <TextField fx:id="usuario" layoutX="50.0" layoutY="175.0" prefWidth="200.0" promptText="Usuario" />
-            <Button fx:id="botonLogin" layoutX="100.0" layoutY="250.0" mnemonicParsing="false" onMouseClicked="#BotonLogin" prefWidth="100.0" style="-fx-background-color: D328E8;" text="Login" />
+            <Button fx:id="botonLogin" layoutX="100.0" layoutY="250.0" mnemonicParsing="false" onMouseClicked="#BotonLogin" prefWidth="100.0" style="-fx-background-color: #67D8CC;" text="Login" />
          </children>
       </AnchorPane>
-      <Button fx:id="botonSalir" layoutX="174.0" layoutY="361.0" mnemonicParsing="false" onMouseClicked="#botonSalir" text="Salir" />
+      <Button fx:id="botonSalir" layoutX="159.0" layoutY="361.0" mnemonicParsing="false" onMouseClicked="#botonSalir" prefHeight="25.0" prefWidth="83.0" text="Salir" />
    </children>
 </AnchorPane>
