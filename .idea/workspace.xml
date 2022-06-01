@@ -1,13 +1,39 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="27c7bbfe-48db-47c4-ac5e-7f9ce4b867a8" name="Changes" comment="" />
+    <list default="true" id="b73dace9-2705-4027-8263-cb88ffbdc56c" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/discord.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/JasperReports.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/JavaFx11_0_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/MariaDB.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/mysql_connector_java_8_0_21.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ProyectoC2.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/com/visual/ProyectoC2/Adapter/MariaDBAdapter.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/com/visual/ProyectoC2/Adapter/MariaDBAdapter.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/com/visual/ProyectoC2/View/RootController.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/com/visual/ProyectoC2/View/RootController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/com/visual/ProyectoC2/View/ViewComprasController.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/com/visual/ProyectoC2/View/ViewComprasController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/com/visual/ProyectoC2/View/ViewProductoController.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/com/visual/ProyectoC2/View/ViewProductoController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/com/visual/ProyectoC2/View/ViewRegistroController.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/com/visual/ProyectoC2/View/ViewRegistroController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/visual/ProyectoC2/Adapter/MariaDBAdapter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/visual/ProyectoC2/Adapter/MariaDBAdapter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/visual/ProyectoC2/View/RootController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/visual/ProyectoC2/View/RootController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/visual/ProyectoC2/View/ViewProductoController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/visual/ProyectoC2/View/ViewProductoController.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
-  <component name="ProjectId" id="291pnwbnRq8XzgJ2mFCe5wb7yzU" />
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectId" id="293066CIPXRihZR5K8zJaPXB4MD" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -15,22 +41,74 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$USER_HOME$/OneDrive - ids.upchiapas.edu.mx/JDBC/mysql-connector-java-8.0.21.jar" />
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="project.structure.last.edited" value="Libraries" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+  </component>
+  <component name="RunManager">
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.visual.ProyectoC2.Main" />
+      <module name="ProyectoC2" />
+      <option name="VM_PARAMETERS" value="--module-path=&quot;C:\javafx-sdk-11.0.2\lib&quot; --add-modules=javafx.controls,javafx.fxml" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.visual.ProyectoC2.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.Main" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="27c7bbfe-48db-47c4-ac5e-7f9ce4b867a8" name="Changes" comment="" />
-      <created>1652290618698</created>
+      <changelist id="b73dace9-2705-4027-8263-cb88ffbdc56c" name="Changes" comment="" />
+      <created>1652326351326</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1652290618698</updated>
-      <workItem from="1652290619966" duration="65000" />
+      <updated>1652326351326</updated>
+      <workItem from="1652326352638" duration="1423000" />
+      <workItem from="1652327812907" duration="728000" />
+      <workItem from="1652755381032" duration="59000" />
+      <workItem from="1653248429044" duration="94000" />
+      <workItem from="1653360083415" duration="976000" />
+      <workItem from="1653492922567" duration="1755000" />
+      <workItem from="1653962839570" duration="1929000" />
+      <workItem from="1653964816173" duration="5311000" />
+      <workItem from="1653970367093" duration="802000" />
+      <workItem from="1654038313830" duration="9237000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/ProyectoC2$Main.ic" NAME="Main Coverage Results" MODIFIED="1652327608660" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>com.visual.ProyectoC2.*</FILTER>
+    </SUITE>
   </component>
 </project>

@@ -1,0 +1,13 @@
+<component name="libraryTable">
+  <library name="JasperReports">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/../../../../JasperReports/commons-collections4-4.4.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../../../../JasperReports/commons-digester-2.1.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../../../../JasperReports/commons-logging-1.2.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../../../../JasperReports/itext-2.1.7.js4.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../../../../JasperReports/jasperreports-6.13.0.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

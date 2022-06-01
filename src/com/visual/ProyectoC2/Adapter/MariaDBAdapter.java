@@ -20,7 +20,7 @@ public class MariaDBAdapter {
 	public void Connection() {
 		String connectionString = "jdbc:mariadb://localhost:3306/tiendita?zeroDateTimeBehavior=convertToNull&serverTimezone=UTC";
 		String user = "root";
-		String password = "SqeadsltV=(h+c)";
+		String password = "alexito2012";
 		
 		try {
 			connection = DriverManager.getConnection(connectionString, user, password);
