@@ -124,10 +124,7 @@ public class ViewProductoController implements Initializable {
     	Main.closeStage(event);
     }
 
-    @FXML
-    void botonReporte(MouseEvent event) {
-    	
-    }    
+    
     
     @FXML
     void botonCompras(MouseEvent event) {
